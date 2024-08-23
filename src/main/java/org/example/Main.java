@@ -8,6 +8,7 @@ import java.util.LinkedList;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import java.util.List;
 
+import static org.example.Intersection.findIntersection;
 import static org.example.MaxNum.findMaxProduct;
 import static org.example.TargetLogic.findTargetSum;
 
@@ -35,7 +36,23 @@ public class Main {
         int[] array = {23, 4, 5, 8, 15, 90};
 //        System.out.println("Indices: " + Arrays.toString(findTargetSum(array, 59)));
 
-        System.out.println("Max Product: " + findMaxProduct(array));
+//        System.out.println("Max Product: " + findMaxProduct(array));
+
+        ArrayList<String> firstList = new ArrayList<>();
+        firstList.add("James");
+        firstList.add("Sam");
+        firstList.add("Korede");
+        firstList.add("Xander");
+        firstList.add("Prize");
+
+        ArrayList<String> secondList = new ArrayList<>();
+        secondList.add("James");
+        secondList.add("Sam");
+        secondList.add("Xander");
+        secondList.add("Prize");
+        secondList.add("Fabian");
+
+        System.out.println("Intersection: " + findIntersection(firstList, secondList));
 
     }
 
