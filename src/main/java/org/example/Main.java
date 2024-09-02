@@ -10,6 +10,7 @@ import java.util.List;
 
 import static org.example.Intersection.findIntersection;
 import static org.example.MaxNum.findMaxProduct;
+import static org.example.MaxTarget.findMaxTargetProduct;
 import static org.example.TargetLogic.findTargetSum;
 
 public class Main {
@@ -35,7 +36,7 @@ public class Main {
 
         int[] array = {23, 4, 5, 8, 15, 90};
 //        System.out.println("Indices: " + Arrays.toString(findTargetSum(array, 59)));
-
+        System.out.println("Indices" + findTargetSum(nums, 12));
 //        System.out.println("Max Product: " + findMaxProduct(array));
 
         ArrayList<String> firstList = new ArrayList<>();
@@ -52,7 +53,9 @@ public class Main {
         secondList.add("Prize");
         secondList.add("Fabian");
 
-        System.out.println("Intersection: " + findIntersection(firstList, secondList));
+//        System.out.println("Intersection: " + findIntersection(firstList, secondList));
+
+        System.out.println("Product of numbers greater than Target: " + findMaxTargetProduct(nums, 10));
 
     }
 
