@@ -1,17 +1,13 @@
 package org.example;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import java.util.List;
 
-import static org.example.Intersection.findIntersection;
-import static org.example.MaxNum.findMaxProduct;
 import static org.example.MaxTarget.findMaxTargetProduct;
-import static org.example.TargetLogic.findTargetSum;
+import static org.example.TargetSum.findTargetSum;
 
 public class Main {
     public static void main(String[] args) {

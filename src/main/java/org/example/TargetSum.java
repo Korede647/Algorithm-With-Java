@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TargetLogic {
+public class TargetSum {
 
     public static List<Integer> findTargetSum(List<Integer> number, int target){
         List<Integer> num = new ArrayList<>();
