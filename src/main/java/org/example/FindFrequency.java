@@ -9,26 +9,22 @@ public class FindFrequency {
 
 //    public Map<Character, Integer> Frequency (String str){
 //        Map<Character, Integer> letters = new HashMap<>();
-//        str.toUpperCase();
+//        str = str.toUpperCase();
 //        int count = 0;
-//        String newChar = "";
-////        char[] strchar = str.toCharArray();
 //        for (char character : str.toCharArray()) {
 //            if (str.equals(character)) {
+//                letters.put(character, letters.getOrDefault(character, 0) + 1);
 //                count++;
-//                letters.put(character, count);
 //            }
 //        }
 //        for (Map.Entry<Character, Integer> word : letters.entrySet()){
-//                System.out.print(word.getKey() + ":");
-//                System.out.println(word.getValue());
+//            System.out.print(word.getKey() + ": " + word.getValue());
 //        }
-//       return letters;
+//        return letters;
 //    }
 
     public Map<String, Integer> Frequency (List<String> words){
         Map<String, Integer> letters = new HashMap<>();
-//        letters.
         for(String word: words){
             if (letters.containsKey(word)){
                 letters.put(word, letters.get(word) + 1);
